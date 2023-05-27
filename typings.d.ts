@@ -34,29 +34,35 @@ interface DailyUnits {
 }
 
 interface Hourly {
-	apparent_temperature: [number];
-	dewpoint_2m: [number];
-	is_day: [number];
-	precipitation: [number];
-	precipitation_probability: [number];
-	rain: [number];
-	relativehumidity_2m: [number];
-	showers: [number];
-	temperature_2m: [number];
-	time: [string];
+	apparent_temperature: [number]
+	precipitation: [number]
+	precipitation_probability: [number]
+	rain: [number]
+	relativehumidity_2m: [number]
+	showers: [number]
+	snow_depth: [number]
+	snowfall: [number]
+	temperature_2m: [number]
+	time: [string]
+	uv_index: [number]
+	uv_index_clear_sky: [number]
+	windgusts_10m: [number]
 }
 
 interface HourlyUnits {
-	apparent_temperature: string;
-	dewpoint_2m: string;
-	is_day: string;
-	precipitation: string;
-	precipitation_probability: string;
-	rain: string;
-	relativehumidity_2m: string;
-	showers: string;
-	temperature_2m: string;
-	time: string;
+	apparent_temperature: string
+	precipitation: string
+	precipitation_probability: string
+	rain: string
+	relativehumidity_2m: string
+	showers: string
+	snow_depth: string
+	snowfall: string
+	temperature_2m: string
+	time: string
+	uv_index: string
+	uv_index_clear_sky: string
+	windgusts_10m: string
 }
 
 interface Root {
